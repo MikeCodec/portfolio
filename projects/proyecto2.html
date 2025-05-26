@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 2 - Mi Portafolio</title>
+    <link rel="stylesheet" href="../style.css"> <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">&lt;Mike Codec/&gt;</div>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../portfolio.html">Portafolio</a></li>
+                <li><a href="../contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="project-detail-section">
+            <a href="../portfolio.html" class="back-to-portfolio"><i class="fas fa-arrow-left"></i> Volver al Portafolio</a>
+            <h1>Sistema de Gestión de Clientes</h1>
+            <p class="project-subtitle">Una aplicación web full-stack para optimizar la relación con el cliente.</p>
+
+            <div class="project-gallery">
+                <img src="../images/proyecto1-detalle-img1.jpg" alt="Captura de pantalla del dashboard">
+                <img src="../images/proyecto1-detalle-img2.jpg" alt="Captura de pantalla de la gestión de usuarios">
+                </div>
+
+            <div class="project-description">
+                <h3>El Desafío Técnico</h3>
+                <p>El cliente, una pequeña empresa de servicios, necesitaba una herramienta robusta para manejar su creciente base de datos de clientes y automatizar tareas repetitivas. El desafío principal era desarrollar una aplicación escalable, segura y con una interfaz intuitiva para usuarios no técnicos.</p>
+
+                <h3>Mi Rol y Proceso de Desarrollo</h3>
+                <p>Como desarrollador <strong>Full-stack</strong>, fui responsable de todo el ciclo de vida del proyecto: desde el diseño de la arquitectura hasta la implementación y el despliegue. Mi proceso incluyó:</p>
+                <ul>
+                    <li><strong>Planificación y Arquitectura:</strong> Definición de la estructura de la base de datos (MongoDB) y el diseño de la API RESTful con Node.js y Express.</li>
+                    <li><strong>Desarrollo Frontend:</strong> Construcción de la interfaz de usuario reactiva con React, utilizando Redux para la gestión del estado y SCSS para estilos modulares.</li>
+                    <li><strong>Desarrollo Backend:</strong> Implementación de la lógica de negocio, autenticación JWT, y manejo de la base de datos.</li>
+                    <li><strong>Testing y Despliegue:</strong> Pruebas unitarias y de integración (Jest, Supertest) y despliegue en un entorno de nube (AWS EC2).</li>
+                </ul>
+
+                <h3>Soluciones Implementadas</h3>
+                <p>Para la autenticación, se implementó un sistema basado en tokens JWT para una seguridad eficiente. La gestión de datos se optimizó con índices de MongoDB y consultas eficientes. Se utilizó un enfoque de componentes en React para garantizar la reusabilidad y mantenibilidad del código. Además, se configuró un CI/CD básico con GitHub Actions para automatizar los despliegues.</p>
+
+                <h3>Resultados y Aprendizajes</h3>
+                <p>La implementación de este sistema resultó en una reducción del <strong>30%</strong> en el tiempo dedicado a la gestión manual de clientes y una mejora del <strong>20%</strong> en la satisfacción del cliente debido a la respuesta más rápida. Aprendí la importancia crítica de la planificación de la arquitectura y la gestión de dependencias en proyectos full-stack complejos.</p>
+
+                <div class="project-links">
+                    <a href="https://www.ejemplodelproyecto.com" target="_blank" class="btn-primary">Ver Proyecto en Vivo <i class="fas fa-external-link-alt"></i></a>
+                    <a href="https://github.com/tunombre/nombre-repo-proyecto" target="_blank" class="btn-secondary">Ver Código <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mike Codec. Desarrollado con &lt;/&gt; y pasión.</p>
+    </footer>
+</body>
+</html>
